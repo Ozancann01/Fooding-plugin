@@ -1,7 +1,7 @@
 # Fooding-plugin
 
-Er moeten volgende punten gemaakt worden zo dat plugin goed werkt. 
+The following points need to be made so that plugin works properly.
 
-1-Datum voor media moet uit gezet worden zo dat foo linken juist werken.
-2-Shortcode is [allergieen] die moet gezet worden in producten pagina.
-3-ACF veld moet 'allergie' genoemd worden.
+1-Date for media must be turned off so that links work correctly. You can turn off date for media in settings of wordpress.
+2-Shortcode is [iconProduct].productIcon
+3-ACF field must be called 'iconProduct' and the names of icons  must be the same as acf field
