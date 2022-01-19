@@ -1,22 +1,22 @@
 <?php
 /*
-Plugin Name: Allergieen
+Plugin Name: Icon
 Version: 1.0
+Author:Ozan
 */
 ?>
 <?php
 
     //  short code.
-add_shortcode('allergieen', 'allergieIcon');
+add_shortcode('iconProduct', 'productIcon');
 
 // set the icons on products 
-function allergieIcon(){
+function productIcon(){
     // get the value from acf 
-    $field = get_field_object('allergie');
+    $field = get_field_object('productIcon');
     $values = $field['value'];
   
-
-    if( $values ):
+      if( $values ):
        
   ?>
 
