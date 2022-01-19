@@ -1,4 +1,4 @@
-# Fooding-plugin
+# Icon-plugin
 
 The following points need to be made so that plugin works properly.
 
